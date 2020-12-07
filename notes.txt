@@ -1,0 +1,403 @@
+=======================================================================
+Version 1.0.0 - Nov 19, 2020 - 10:52 - Initial Document
+
+Version 1.0.1 - Nov 20, 2020 - 06:30 - Added 'timing' to the
+                                       'Source Code' section
+
+Version 1.0.2 - Nov 26, 2020 - 08:00 - Added [More] section
+
+Version 1.0.3 - Nov 30, 2020 - 12:22 - Added decimal/binary/hex
+                                       conversions to [More]
+=======================================================================
+
+[Variable Types]
+
+o) How do I declare, initialize, alter and print the value of a(n) ... ?
+
+      - boolean variable
+      - string variable
+      - char variable
+      - single-byte integer variable
+      - short integer variable
+      - integer variable
+      - large integer variable
+      - floating point variable
+      - double-precision floating point variable
+
+o) How do I declare a constant?  A static variable?  A global variable?
+
+o) How does scoping operate in general?
+
+[Calculations]
+
+o) How do I add/subtract 1 from a number?
+
+o) How would I express ... as a calculation?
+
+   - the distance formula
+   - heron's formula
+   - the quadratic formula
+
+o) How do I do integer (remainderless) division?  Floating point division?
+
+o) How do I do round a real number to the nearest integer?
+
+o) How do I do convert a real number to an integer? (floating point
+   portion truncated)
+
+o) How do I find the remainder when one integer is divided by another?
+
+o) How do I find the ... ?
+ 
+   - square root of a number
+   - sin/cos of a number
+   - natural log of a number
+   - log base 10 of a number
+   - value of 'e' (exp) raised to a number
+   - x raised to the power y (often: pow(x, y))
+   - absolute value of a number
+
+[Input]
+
+o) How do I read a full line of input from the user as a string?
+
+o) How do I read a single integer value from the user?
+   What if the user does not enter an integer?
+
+o) How do I read a single floating-point value from the user?
+   What if the user does not enter a valid floating-point value?
+
+[Output]
+
+o) How do I format my floating point output to a specified
+   number of decimal places?
+
+o) How do I specify a field width for an item when printing?
+
+o) How do I choose left/right justify for a field width when printing?
+
+o) How do I pad with spaces? With zeros?
+
+o) How do I print without going to a new line?
+
+o) How do I print just a new line?
+
+o) How do I print all the types listed under 'Variable Types' above?
+
+o) How do I print an array? a dictionary? a growable array?
+   a 2d array? a set?
+
+o) How do I make my object print-friendly? (not always possible)
+
+[Functions]
+
+o) How do I write and call a function that takes no
+   parameters and does not return anything?
+
+o) How do I write and call a function that takes no
+   parameters but returns any of the types listed
+   under 'Variable Types' above?
+
+o) How do I write and call a function that takes one
+   or more parameters but returns nothing.
+
+o) How do I write and call a function that takes one
+   or more parameters and returns any of the types listed
+   under 'Variable Types' above?
+
+o) How do I write a recursive function?
+
+o) How can I pass a variable to a function so that the function can change
+   the actual/original variable's value? (reference, pointer, out parameter, etc.)?
+
+o) How do I return multiple values from a function?
+
+o) How do I write a local function (lambda)?  How does my local
+   function handle access to variables that were in scope when the function
+   was created? (capture by value/reference, closure)
+   (not always possible)
+
+[If Else]
+
+o) How do I write an if statement?
+
+o) How do I write an if statement with a compound condition?
+
+o) How do I write an if statement with an else clause?
+
+o) How do I write an if/else if/else type of chain?
+
+o) How do I make use of the ternary operator?
+   (compact if/else construct, not always possible)
+
+[Switch]
+
+o) How do I write a basic switch statement?
+
+o) How do I switch on non-integral types (strings, for example)?
+
+o) How do I use break and fall-through in a switch statement?
+
+[Loops]
+
+o) How do I write a while/do-while loop that outputs the numbers from one to ten?
+
+o) How do I write a for loop that outputs the numbers from one to ten?
+
+o) How do I write a loop that increments/decrements by a value other than one?
+
+o) How do I write a loop that counts down from ten to one?
+
+o) How do I write a loop with multiple loop variables?
+
+o) How do I loop through all elements in an array?  What happens
+   if I access elements outside the bounds of the array?
+
+o) How do I loop through some elements in an array?
+
+o) How do I use break and continue in a loop?
+
+o) How do I write a nested loop?
+
+o) How do I do a list comprehension? (not always possible)
+
+[Arrays]
+
+o) How do I declare an array? How do I create an array initiliazed
+   with values I choose?
+
+o) How do I determine the length of the array? (not always possible)
+
+o) How do I alter the values in an array after it has been created?
+
+o) How do I step through each of the elements in the array?
+
+o) How do I print out the contents of the array?
+
+o) How do I add additional items to my array? (not always possible)
+
+o) How do I find the sum, min, max, avg value of an array?
+
+o) How do I sort an array?  What if it holds custom data?
+   (consider both manual and built-in sorting)
+
+o) How do I do a binary search on a sorted array?
+
+o) How do I determine if a given item is present in an unsorted array?
+
+o) How do I count how many times a given item appears in an array?
+
+o) How do I perform a blanket operation on every element in the array?
+   (not always possible)
+
+[2D Arrays]
+
+o) How do I declare a 2d array?  How do I initialize it
+   with values I choose?
+
+o) How do I alter the values in a 2d array after it has been created?
+
+o) How do I step through each of the elements in the 2d array?
+
+o) How do I print out the contents of the 2d array?
+
+o) How do I add additional items to my 2d array? (not always possible)
+
+o) How do I find the sum, min, max, avg value of a 2d array?
+
+o) How do I sort a 2d array?  What if it holds custom data?
+
+o) How do I determine if a given item is present in a 2d array?
+
+o) How do I count how many times a given item appears in a 2d array?
+
+o) How do I perform a blanket operation on every element in the 2d array?
+   (not always possible)
+
+[Growable Array]
+
+o) How do I declare a growable array? How do I initiliaze
+   it with values I choose?
+
+o) How do I determine the length of the growable array?
+
+o) How do I alter the values in a growable array after it has been created?
+
+o) How do I step through each of the elements in the growable array?
+
+o) How do I print out the contents of the growable array?
+
+o) How do I add additional items to my growable array?
+
+o) How do I find the sum, min, max, avg value of a growable array?
+
+o) How do I sort a growable array?  What if it holds custom data?
+   (consider both manual and built-in sorting)
+
+o) How do I do a binary search on a sorted growable array?
+
+o) How do I determine if a given item is present in an unsorted growable array?
+
+o) How do I count how many times given item appears in a growable array?
+
+o) How do I perform a blanket operation on every element in the growable array?
+   (not always possible)
+
+[Strings]
+
+o) How do I determine the length of a string?
+
+o) How do I remove all whitespace from a string? from the start? from the end?
+
+o) How do I determine if a given character is present in a string or not?
+
+o) How do I find the index of a given character in a string?
+   (frequently -1 is returned if the char is not found)
+
+o) How do I step through a string character by character?
+
+o) How do I reverse a string?
+
+o) How do I extract a substring from a string?
+
+o) How do I split up a string by whitespace?
+
+o) How do I split up a string based upon user-specified delimiters?
+
+[Regex]
+
+o) How do I use regex to see if a string contains a given regex pattern?
+
+o) How do I use regex to see if a string matches exactly a given regex pattern?
+
+o) How do I write and use a capture group to extract the desired 
+   parts of a string using regex?
+
+o) How do I process input that might match my regex multiple times?
+
+o) How do I specify: digit, whitespace, not-whitespace in compact
+   notation using regex? (typically: \d \s \S)
+
+o) How do I do a regex-based replace? (often uses placeholders $1, $2
+   to refer to first capture group, second capture group, etc.)
+
+[Dictionary]
+
+o) How do I declare a dictionary (often also called a 'map')?
+
+o) How do I count the number of entries in my dictionary?
+
+o) How can I determine if a given key is present in my dictionary?
+
+o) How do I get the value for a key in the dictionary?
+
+o) How do I remove an element from the dictionary?
+
+o) How do I get a list of all keys in the dictionary?
+
+o) How do I step through each entry in turn in my dictionary?
+
+o) How do I print out the contents of my dictionary?
+
+o) How do I perform a blanket operation on every entry in the dictionary?
+   (not always possible)
+
+o) How do I use a dictionary to calculate word frequency for
+   given input?  How do I use a dictionary to calculate letter
+   frequency for given input?
+
+[Set]
+
+o) How do I declare a set? (bag of items, each unique)
+
+o) How do I count the number of items in my set?
+
+o) How do I determine if the set contains a given item?
+
+o) How do I print out the contents of my set?
+
+o) How do I remove an item from the set?
+
+[Objects]
+
+o) How do I declare an object?
+
+o) How do I control access to the fields inside my object? 
+   (public, protected, private, static, const, etc. - not always
+    possible)
+
+o) How do I write getters and setters (or their equivalent)
+   for my object?
+
+o) How do I create a object that inherits from another object?
+   (not always possible)
+
+o) How do I create methods for my object?  How do I create a static
+   method?  How do I control access to methods?
+   (methods aren't always supported)
+
+o) How do I write an abstract class or interface?
+
+o) How do I add a field to my already-existing object (not always possible)?
+
+[IO]
+
+o) How do I write "hello world" to a text file with a name of my choosing?
+   What happens if the file cannot be written?
+
+o) How do I read a text file and display its contents?
+   What happens if the file does not exist?
+
+o) How do I write a binary file?
+
+o) How do I read values from an ini-type file?
+
+o) How do I get a list of all files in a particular directory?
+   How would I sum up their sizes?
+
+o) How do I traverse an entire directory tree?
+
+o) How do I add/remove a directory? a directory tree?
+
+o) How do I rename a file? a directory?
+
+o) How do I copy a file?
+
+[Source Code]
+
+o) How do I create a single-line comment?
+
+o) How do I create a multi-line comment?
+
+o) How do I show the current file name? current line number? current function?
+   (may not be possible)
+
+o) How do I show a stack trace? (may not be possible)
+
+o) How do I comment-out a section of code that already contains
+   multi-line comments? (may not be possible)
+
+o) How do I create a program that spans multiple source files?
+
+o) How do I time a section of code to see how long it takes to execute?
+
+[Error Handling]
+
+o) How are errors handled in general?
+
+o) How are specific errors handled? divide by zero, stack overflow,
+   invalid memory access? io errors?
+
+o) How do I throw/catch an exception (not always possible)
+
+[More]
+
+o) How do I create and write an image (bmp, for example)?
+
+o) How do I work with complex numbers?
+
+o) How do I generate a mandelbrot-style fractal image?
+
+o) How do I convert a decimal number to hex?  A hex number to decimal?
+
+o) How do I convert a decimal number to binary? A binary number to decimal?
