@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ProgrimoireCSharpExamples
 {
@@ -7,14 +8,23 @@ namespace ProgrimoireCSharpExamples
         public static void Main(string[] args)
         {
             var someArray = new int[] { 31, 3, 7, 23, 11, 13, 2, 17, 19, 5, 29 };
-            var min       = 0;
-            var max       = 0;
-            var sum       = 0;
+            
+            /* -- C# has built in functionality to accomplish this quickly -- */
+            
+            var sum = someArray.Sum();
+            var min = someArray.Min();
+            var max = someArray.Max();
+            
+            Console.WriteLine($"min: {min}, max: {max}, sum: {sum}, average: {someArray.Average():F}");
             
             /* -- Set min/max to the first element and then
                   update those values when we encounter a
                   smaller/larger value -- */
 
+            min       = 0;
+            max       = 0;
+            sum       = 0;
+            
             for (var i = 0; i < someArray.Length; i++)
             {
                 sum += someArray[i];
