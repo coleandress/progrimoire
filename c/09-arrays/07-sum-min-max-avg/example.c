@@ -24,10 +24,10 @@ int main()
       }
       else
       {
-         if(min < someArray[i])
+         if(someArray[i] < min)
             min = someArray[i];
 
-         else if(max > someArray[i])
+         else if(someArray[i] > max)
             max = someArray[i];
       }
    }
