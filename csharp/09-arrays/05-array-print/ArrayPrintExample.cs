@@ -6,9 +6,21 @@ namespace ProgrimoireCSharpExamples
     {
         public static void Main(string[] args)
         {
-            /* -- Create and print our initial array -- */
+            /* -- Create and print our initial array the easy way -- */
             
             int[] someArray = { 2, 3, 5, 7, 11 };
+            
+            Console.WriteLine(string.Join(", ", someArray));
+
+            Console.WriteLine();
+            
+            /* -- The easy way but one arg per line -- */
+            
+            Console.WriteLine(string.Join("\n", someArray));
+
+            Console.WriteLine();
+            
+            /* -- The conventional way -- */
 
             for (var i = 0; i < someArray.Length; i++)
             {
