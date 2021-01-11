@@ -78,6 +78,11 @@ static int getIntArray(IntArray *iaPtr, int index)
    if(index >= 0 && index < iaPtr->mSize)
       return(iaPtr->mArray[index]);
 
+   /* -- Although -1 is a perfectly valid integer value, we
+         use it as an indicator of trouble as otherwise we'd have
+         to complicate the api for this function significantly
+         (i.e. return a struct or receive the value via a pointer) -- */
+
    return(-1);
 }
 
