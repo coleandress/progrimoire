@@ -1,0 +1,6 @@
+Error list
+C float output
+number mispelled as numbr on comment
+
+C ReadLine
+put single quotes around End in the instructions to continue
