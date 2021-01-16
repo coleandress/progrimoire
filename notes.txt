@@ -390,6 +390,8 @@ o) How are specific errors handled? divide by zero, stack overflow,
 
 o) How do I throw/catch an exception (not always possible)
 
+[Unit Testing]
+
 [More]
 
 o) How do I create and write an image (bmp, for example)?
@@ -401,3 +403,7 @@ o) How do I generate a mandelbrot-style fractal image?
 o) How do I convert a decimal number to hex?  A hex number to decimal?
 
 o) How do I convert a decimal number to binary? A binary number to decimal?
+
+o) How do I create documentation?
+
+o) How do I create a GUI application?
