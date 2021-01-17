@@ -407,3 +407,5 @@ o) How do I convert a decimal number to binary? A binary number to decimal?
 o) How do I create documentation?
 
 o) How do I create a GUI application?
+
+o) How do I code the Sieve of Eratosthenes?
