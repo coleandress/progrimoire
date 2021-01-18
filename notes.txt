@@ -8,6 +8,10 @@ Version 1.0.2 - Nov 26, 2020 - 08:00 - Added [More] section
 
 Version 1.0.3 - Nov 30, 2020 - 12:22 - Added decimal/binary/hex
                                        conversions to [More]
+
+Version 1.0.4 - Jan 18, 2021 - 10:06 - Merged Cole's additions,
+                                       added 'Algorithms' to
+                                       [More] section title
 =======================================================================
 
 [Variable Types]
@@ -264,6 +268,8 @@ o) How do I split up a string by whitespace?
 
 o) How do I split up a string based upon user-specified delimiters?
 
+[JFD: Left Off Here]
+
 [Regex]
 
 o) How do I use regex to see if a string contains a given regex pattern?
@@ -340,6 +346,8 @@ o) How do I write an abstract class or interface?
 
 o) How do I add a field to my already-existing object (not always possible)?
 
+o) How do I do inheritance? public/private/protected?
+
 [IO]
 
 o) How do I write "hello world" to a text file with a name of my choosing?
@@ -354,6 +362,8 @@ o) How do I read values from an ini-type file?
 
 o) How do I get a list of all files in a particular directory?
    How would I sum up their sizes?
+
+[JFD: Left off here]
 
 o) How do I traverse an entire directory tree?
 
@@ -392,7 +402,7 @@ o) How do I throw/catch an exception (not always possible)
 
 [Unit Testing]
 
-[More]
+[Algorithms And More]
 
 o) How do I create and write an image (bmp, for example)?
 
@@ -403,6 +413,10 @@ o) How do I generate a mandelbrot-style fractal image?
 o) How do I convert a decimal number to hex?  A hex number to decimal?
 
 o) How do I convert a decimal number to binary? A binary number to decimal?
+
+o) How do I generate a random number?
+
+o) How do I allocate memory dynamically?
 
 o) How do I create documentation?
 

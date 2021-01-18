@@ -4,3 +4,15 @@ number mispelled as numbr on comment
 
 C ReadLine
 put single quotes around End in the instructions to continue
+
+C# FloatOutputExample
+First comment is wrong
+
+C# FieldWidthExample
+Needs a comment to explain the , <number of characters>
+
+C# FieldJustifyExample
+Needs similar comment to FieldWidthExample
+
+C# PaddingExample
+Need example of PadLeft() and PadRight() without character to demonstate the default padding with spaces
