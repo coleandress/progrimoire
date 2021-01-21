@@ -5,6 +5,9 @@ number mispelled as numbr on comment
 C ReadLine
 put single quotes around End in the instructions to continue
 
+C Return Multiple Values
+multiple mispelled on line 46
+
 C# FloatOutputExample
 First comment is wrong
 
