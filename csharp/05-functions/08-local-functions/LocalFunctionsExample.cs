@@ -17,7 +17,7 @@ namespace ProgrimoireCSharpExamples
             }
             
             /* -- Use a lambda expression to add one.
-                  Warning: there are heal allocation advantages
+                  Warning: there are heap allocation advantages
                   to using local functions over lambdas:
                   https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/local-functions-- */
 
