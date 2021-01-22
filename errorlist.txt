@@ -6,7 +6,10 @@ C ReadLine
 put single quotes around End in the instructions to continue
 
 C Return Multiple Values
-multiple mispelled on line 46
+multiple misspelled on line 46
+
+C While Do While One to Ten
+Line 6 misspelling
 
 C# FloatOutputExample
 First comment is wrong
@@ -19,3 +22,11 @@ Needs similar comment to FieldWidthExample
 
 C# PaddingExample
 Need example of PadLeft() and PadRight() without character to demonstate the default padding with spaces
+
+C# Pass by Reference
+Add note about methods being required to initialize out variables but not ref
+
+----------
+
+Things to try
+Overloading with public and private methods
