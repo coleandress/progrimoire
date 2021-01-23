@@ -11,6 +11,9 @@ multiple misspelled on line 46
 C While Do While One to Ten
 Line 6 misspelling
 
+C Nested Loop Example
+Fix Line 5 comment to say 12:45 instead of 12 o'clock
+
 C# FloatOutputExample
 First comment is wrong
 
