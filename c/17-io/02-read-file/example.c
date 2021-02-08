@@ -1,12 +1,28 @@
 #include <stdio.h>
 
+FILE *openFile(const char *fileName, const char *mode)
+{
+#  ifdef _WIN32
+#     pragma warning(push)
+#     pragma warning(disable : 4996)
+#  endif
+
+   FILE *f = fopen(fileName, mode);
+
+#  ifdef _WIN32
+#     pragma warning(pop)
+#  endif
+
+   return(f);
+}
+
 static void showFile(const char *fileName)
 {
    printf("----------------------------------------\n");
    printf("fileName: [%s]\n", fileName);
    printf("----------------------------------------\n\n");
 
-   FILE *f = fopen(fileName, "r");
+   FILE *f = openFile(fileName, "r");
 
    if(!f)
    {

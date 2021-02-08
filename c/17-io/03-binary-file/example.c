@@ -1,6 +1,22 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+FILE *openFile(const char *fileName, const char *mode)
+{
+#  ifdef _WIN32
+#     pragma warning(push)
+#     pragma warning(disable : 4996)
+#  endif
+
+   FILE *f = fopen(fileName, mode);
+
+#  ifdef _WIN32
+#     pragma warning(pop)
+#  endif
+
+   return(f);
+}
+
 int main()
 {
    /* -- On windows, we need 'wb' instead of just 'w' to
@@ -9,7 +25,7 @@ int main()
          best to include it across the board -- */
 
    const char *fileName = "output.dat";
-   FILE *f = fopen(fileName, "wb");
+   FILE *f = openFile(fileName, "wb");
 
    if(!f)
    {

@@ -135,9 +135,25 @@ static char *getValue(const char *key, const char *line)
    return(ptr);
 }
 
+FILE *openFile(const char *fileName, const char *mode)
+{
+#  ifdef _WIN32
+#     pragma warning(push)
+#     pragma warning(disable : 4996)
+#  endif
+
+   FILE *f = fopen(fileName, mode);
+
+#  ifdef _WIN32
+#     pragma warning(pop)
+#  endif
+
+   return(f);
+}
+
 static bool getLines(const char *fileName, int *nLinesPtr, Line **linesPtr)
 {
-   FILE *f = fopen(fileName, "r");
+   FILE *f = openFile(fileName, "r");
 
    if(!f)
       return(false);
