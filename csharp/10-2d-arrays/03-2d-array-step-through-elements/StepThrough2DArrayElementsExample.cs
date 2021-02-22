@@ -51,8 +51,7 @@ namespace ProgrimoireCSharpExamples
 
                 if (++currentCol >= totalCols)
                 {
-                    Console.Write(" }");
-                    Console.WriteLine();
+                    Console.Write(" }\n");
                     currentCol = 0;
                 }
             }
