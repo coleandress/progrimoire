@@ -38,16 +38,16 @@ namespace ProgrimoireCSharpExamples
                 
                 /* -- or if you want to use a char array -- */
 
-                /* var charArray = s.ToCharArray();
+                /*var charArray = s.ToCharArray();
                 
-                for (int i = 0, j = charArray.Length - 1; i < charArray.Length / 2; i++, j--)
+                for (int i = 0, j = charArray.Length - 1; i < j; i++, j--)
                 {
                     var tmp = charArray[i];
                     charArray[i] = charArray[j];
                     charArray[j] = tmp;
                 }
 
-                Console.WriteLine($"'{string.Concat(charArray)}'"); */
+                Console.WriteLine($"'{string.Concat(charArray)}'");*/
 
                 Console.WriteLine();
             }
